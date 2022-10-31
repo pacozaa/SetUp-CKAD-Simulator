@@ -1,0 +1,12 @@
+vim ~/.vimrc
+:set expandtab
+:set tabstop=2
+:set shiftwidth=2
+:set number
+
+export do='--dry-run=client -oyaml'
+export now='--force --grace-period=0'
+
+alias kgp='kubectl get po'
+alias kn='kubectl config set-context --current --namespace '
+alias ktmp='k run tmp --image=nginx:alpine --restart=Never --rm -it -- curl -m 5'
