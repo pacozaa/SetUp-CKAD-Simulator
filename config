@@ -2,7 +2,6 @@ vim ~/.vimrc
 :set expandtab
 :set tabstop=2
 :set shiftwidth=2
-:set number
 
 From Vim you should be familiar with the command and practice multiple line spacing everyday
 
@@ -12,3 +11,4 @@ export now='--force --grace-period=0'
 alias kgp='kubectl get po'
 alias kn='kubectl config set-context --current --namespace '
 alias ktmp='k run tmp --image=nginx:alpine --restart=Never --rm -it -- curl -m 5'
+alias kap='k apply -f'
