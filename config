@@ -4,6 +4,8 @@ vim ~/.vimrc
 :set shiftwidth=2
 :set number
 
+From Vim you should be familiar with the command and practice multiple line spacing everyday
+
 export do='--dry-run=client -oyaml'
 export now='--force --grace-period=0'
 
