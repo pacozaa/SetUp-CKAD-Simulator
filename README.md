@@ -24,11 +24,11 @@ To check if created and other `dscl` utility command
 `dscl . -read /Users/<username>`
 
 To create docker registry
-`https://docs.docker.com/registry/`
+https://docs.docker.com/registry/`
 
 To create podman registry
-`https://blog.while-true-do.io/podman-local-container-registry/`
+https://blog.while-true-do.io/podman-local-container-registry/
 
 
 To install podman
-`https://podman.io/getting-started/installation`
+https://podman.io/getting-started/installation
