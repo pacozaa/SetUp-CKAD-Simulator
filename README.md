@@ -9,4 +9,19 @@ config file is the file you should practice typing over and over again to get us
 Definitly checkout this repo as well https://github.com/dgkanatsios/CKAD-exercises/
 
 
+TODO
 
+To create user(For Docker exercise)
+
+MacOS
+`sudo dscl . -create /Users/k8s`
+
+To create docker registry
+`https://docs.docker.com/registry/`
+
+To create podman registry
+`https://blog.while-true-do.io/podman-local-container-registry/`
+
+
+To install podman
+`https://podman.io/getting-started/installation`
