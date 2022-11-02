@@ -13,8 +13,15 @@ TODO
 
 To create user(For Docker exercise)
 
-MacOS
-`sudo dscl . -create /Users/k8s`
+MacOS(Thanks to https://www.hexnode.com/mobile-device-management/help/script-to-create-new-users-on-mac/ )
+
+`sudo dscl . -create /Users/<username>`
+`sudo dscl . -passwd /Users/<username> <password>`
+`sudo dscl . -create /Users/<username> UniqueID <udid>`
+
+To check if created and other `dscl` utility command 
+`dscl . -list /Users`
+`dscl . -read /Users/<username>`
 
 To create docker registry
 `https://docs.docker.com/registry/`
